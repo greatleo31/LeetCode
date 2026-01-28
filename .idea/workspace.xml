@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3165858d-6d07-448b-88f2-38e47ac7ce27" name="更改" comment="修改项目整体结构">
-      <change afterPath="$PROJECT_DIR$/src/com/coder/doublePoint/283-MoveZero/DoublePoint.java" afterDir="false" />
+    <list default="true" id="3165858d-6d07-448b-88f2-38e47ac7ce27" name="更改" comment="Day6--283 移动零">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coder/greedy/56-MergeIntervals/Greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coder/greedy/56-MergeIntervals/Greedy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,8 @@
       <workItem from="1769402084031" duration="60000" />
       <workItem from="1769402164581" duration="8000" />
       <workItem from="1769402188595" duration="3787000" />
-      <workItem from="1769521916176" duration="125000" />
+      <workItem from="1769521916176" duration="774000" />
+      <workItem from="1769563680716" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="Day1:力扣704--二分查找">
       <option name="closed" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769521065889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day6--283 移动零">
+      <option name="closed" value="true" />
+      <created>1769522072706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769522072706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
     <MESSAGE value="Day4:53-最大子数组和" />
     <MESSAGE value="Day5:56-合并区间" />
     <MESSAGE value="修改项目整体结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改项目整体结构" />
+    <MESSAGE value="Day6--283 移动零" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day6--283 移动零" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
