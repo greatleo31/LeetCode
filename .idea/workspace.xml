@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3165858d-6d07-448b-88f2-38e47ac7ce27" name="更改" comment="Day7--11-盛最多水的容器">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3165858d-6d07-448b-88f2-38e47ac7ce27" name="更改" comment="Day8--15-三数之和" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +118,7 @@
       <workItem from="1769402188595" duration="3787000" />
       <workItem from="1769521916176" duration="774000" />
       <workItem from="1769563680716" duration="2808000" />
+      <workItem from="1769656035932" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="Day1:力扣704--二分查找">
       <option name="closed" value="true" />
@@ -193,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769598735387</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day8--15-三数之和">
+      <option name="closed" value="true" />
+      <created>1769656206410</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769656206410</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="修改项目整体结构" />
     <MESSAGE value="Day6--283 移动零" />
     <MESSAGE value="Day7--11-盛最多水的容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day7--11-盛最多水的容器" />
+    <MESSAGE value="Day8--15-三数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day8--15-三数之和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
