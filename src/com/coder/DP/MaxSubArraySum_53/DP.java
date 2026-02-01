@@ -1,8 +1,9 @@
-package com.coder.array._53_MaxSubArraySum;
+package com.coder.DP.MaxSubArraySum_53;
+
 public class DP {
 
-    //动态规划的思想
-    //f(i)=max{f(i−1)+nums[i],nums[i]}
+    // 动态规划的思想
+    // f(i)=max{f(i−1)+nums[i],nums[i]}
 
     public int maxSubArray(int[] nums) {
         int pre = 0, maxAns = nums[0];
