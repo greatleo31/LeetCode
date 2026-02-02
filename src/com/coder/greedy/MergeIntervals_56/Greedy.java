@@ -1,9 +1,7 @@
 package com.coder.greedy.MergeIntervals_56;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Greedy {
     public int[][] merge(int[][] intervals) {
@@ -16,22 +14,18 @@ public class Greedy {
          */
 
         // 定义链表:方便添加和删除
-        List<int[]> res = new LinkedList<>();
+        LinkedList<int[]> res = new LinkedList<>();
         // 排序
         Arrays.sort(intervals, (x, y) -> Integer.compare(x[0], y[0]));
         // 初始化链表
         res.add(intervals[0]);
         // 循环判断
         for (int i = 1; i < intervals.length; i++) {
+            int[] last = res.getLast();
             // 若能够合并
-            if (intervals[i][0] <= res.getLast()[1]) {
-                // 合并区间
-                intervals[i][0] = res.getLast()[0];
-                intervals[i][1] = Math.max(intervals[i][1], res.getLast()[1]);
-                // 删除最后指向的数组
-                res.removeLast();
-                // 更新区间
-                res.add(intervals[i]);
+            if (intervals[i][0] <= last[1]) {
+                // 合并区间: 只需更新当前区间的右边界
+                last[1] = Math.max(last[1], intervals[i][1]);
             } else {
                 // 若区间独立
                 res.add(intervals[i]);
