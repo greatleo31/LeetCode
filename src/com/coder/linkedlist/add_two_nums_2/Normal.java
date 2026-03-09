@@ -1,6 +1,6 @@
 package com.coder.linkedlist.add_two_nums_2;
 
-class Solution {
+class Normal {
   public class ListNode {
     int val;
     ListNode next;
