@@ -3,7 +3,7 @@ package com.coder.linkedlist.remove_Nth_node_fromTheEndLinked_19;
 import java.util.Deque;
 import java.util.LinkedList;
 
-class OneIterator {
+class OneIteratorAndStack {
   public class ListNode {
     int val;
     ListNode next;

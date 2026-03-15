@@ -19,7 +19,7 @@ class Normal {
   }
 
   public ListNode mergeKLists(ListNode[] lists) {
-    // 时间复杂度：O(n*n)，空间复杂度：O(1)
+    // 时间复杂度：O(k²*n)，空间复杂度：O(1)
     // 思路：先局部解决：创建方法解决两个升序链表合并成一个升序链表，整体上遍历链表数组逐个合并
 
     ListNode ans = null;
