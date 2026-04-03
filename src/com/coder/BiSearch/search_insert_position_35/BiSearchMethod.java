@@ -1,4 +1,4 @@
-package com.coder.stack.search_insert_position_35;
+package com.coder.BiSearch.search_insert_position_35;
 
 public class BiSearchMethod {
   public int searchInsert(int[] nums, int target) {
