@@ -1,4 +1,8 @@
-package com.coder.doublePoint._3Sum_15;
+package com.coder.doublePoint.sumOfThreeNums_15;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class SortAndDoublePoint {
     public List<List<Integer>> threeSum(int[] nums) {
