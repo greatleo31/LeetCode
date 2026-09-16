@@ -17,9 +17,11 @@ public class Normal {
     public static int dfs(int i, int j) {
         // 递归边界：i=0
         if (i == 0) {
+            // (对比coinChange，这里永远不会返回Integer.MAX_VALUE所以下面1+dfs不会溢出)
             return j == 0 ? 0 : Integer.MAX_VALUE;
         }
         // 记忆：判断是否之前搜索过确保每一组只搜索一次
+        // (对比coinChange 之所以可以为0是因为最小完全平方数是1)
         if (nums[i][j] != 0) {
             return nums[i][j];
         }
