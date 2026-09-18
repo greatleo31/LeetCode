@@ -17,7 +17,7 @@ public class Normal {
         System.out.println(wordBreak(s, wordDict));
     }
 
-    // 时间复杂度：O(), 空间复杂度：O()
+    // 时间复杂度：O(n^2 * m), 空间复杂度：O(n)
     // 递推方程含义：dp[i]表示0~i-1位置的字符串可以拆分成wordDict里面的单词
     // 核心：若j~i-1位置的字符串在wordDict中并且dp[j]为true，则dp[i]为true
     private static int dfs(int i, int maxLen, String s, Set<String> words, int[] memo) {
